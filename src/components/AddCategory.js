@@ -22,6 +22,7 @@ export const AddCategory = ({ handleAgregar }) => {
         <form onSubmit = { handleSubmit }>
             <input 
                 type="text" 
+                placeholder = 'busca cualquier gif'
                 value = { inputValue }
                 onChange = { handleInput }
             />
